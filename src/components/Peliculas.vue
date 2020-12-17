@@ -8,7 +8,6 @@
         <div v-for="pelicula in peliculas" v-bind:key="pelicula.title">
             <Pelicula :pelicula="pelicula"></Pelicula>
         </div>
-        <h2>hola</h2>
     </div>
   </section>
 </template>
