@@ -4,7 +4,9 @@
 
     <!--Listado articulos-->
     <div id="articles">
-      
+        
+        <h1>Hello World</h1>
+        
         <div v-for="pelicula in peliculas" v-bind:key="pelicula.title">
             <Pelicula :pelicula="pelicula"></Pelicula>
         </div>
